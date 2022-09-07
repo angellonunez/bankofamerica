@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;
+    margin: 20px 0px 20px 20px;
+}
+
+.lock {
+    margin-right: 7px;
+}
+
+.login-button {
+    background-color: #05256d;
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 20px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu > a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #e41c34;
+    margin-right: 15px;
+}
+
+.hero-title {
+    color: #05256d;
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.hero-text {
+    color: #05256d;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 100px;
+}
+
+.hero-button {
+    background-color: #05256d;
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+    display: block;
+}
+
+.hero-img {
+    width: 150px;
+    margin-right: 50px;
+}
+
+.hero-end {
+    width: 100%;
+    margin-top: 20px;
+}
